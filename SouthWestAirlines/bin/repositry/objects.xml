@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+<homepage>
+       <locator name='one-way' type='id' value='trip-type-one-way'/>
+		<locator name='departure' type='id' value='air-city-departure'/>
+		<locator name='arrival' type="id" value="air-city-arrival"/>
+		<locator name='calender' type="xpath" value=".//*[@id='air-date-departure']"/>
+		<locator name='date' type="xpath" value=".//*[@id='calendar-april-14']"/>
+		<locator name='noofpeople' type="xpath" value="//form[@id='booking-form--flight-panel']/div[2]/div[5]/div/span"/>
+		<locator name='incrementpeople' type="id" value="jb-number-selector-more"/>
+		<locator name='submit' type="id" value="jb-booking-form-submit-button"/>
+</homepage>
+
+<selectfligth>	
+		<locator name='bussinessselector' type="id" value="Out1A"/>
+		<locator name='continue' type="id" value="priceItinerarySubmit"/>
+	</selectfligth>	
+	<price>
+		<locator name='verifyplaces' type="css" value="div.itinerary"/>
+		<locator name='continue' type="id" value="priceSubmitButton"/>
+	</price>
+	<bookreservations>
+		<locator name='firstname0' type="id" value="firstName0"/>
+		<locator name='lastname0' type="id" value="lastName0"/>
+		<locator name='dobmonth0' type="id" value="dobMonth0"/>
+		<locator name='dobday0' type="id" value="dobDay0"/>
+		<locator name='dobyr0' type="id" value="dobYear0"/>
+		<locator name='gender0' type="id" value="gender0"/>s
+		<locator name='firstname1' type="id" value="firstName1"/>
+		<locator name='lastname1' type="id" value="lastName1"/>
+		<locator name='dobmonth1' type="id" value="dobMonth1"/>
+		<locator name='dobday1' type="id" value="dobDay1"/>
+		<locator name='dobyr1' type="id" value="dobYear1"/>
+		<locator name='gender1' type="id" value="gender1"/>
+		<locator name='firstname2' type="id" value="firstName2"/>
+		<locator name='lastname2' type="id" value="lastName2"/>
+		<locator name='dobmonth2' type="id" value="dobMonth2"/>
+		<locator name='dobday2' type="id" value="dobDay2"/>
+		<locator name='dobyr2' type="id" value="dobYear2"/>
+		<locator name='gender2' type="id" value="gender2"/>
+		<locator name='purchase' type="id" value="visibleSubmitButton"/>
+	</bookreservations>
+</pages>	
